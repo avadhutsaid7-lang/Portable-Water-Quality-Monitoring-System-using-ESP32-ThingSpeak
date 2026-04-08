@@ -11,13 +11,13 @@
 #define BUZZER_PIN 12
 
 // ---------------- WIFI DETAILS ----------------
-const char* ssid = "Avadhut's M35";
-const char* password = "12345678";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 // ---------------- THINGSPEAK ----------------
 WiFiClient client;
-unsigned long channelNumber = 3243286;
-const char* apiKey = "WMNH2DQT6RZXGQ5D";
+unsigned long channelNumber = "your channel number";
+const char* apiKey = "Your api key";
 
 // ---------------- OBJECTS ----------------
 OneWire oneWire(ONE_WIRE_BUS);
